@@ -12,6 +12,8 @@ public class Controller extends XboxController {
     public static final Controller Driver = new Controller(Constants.kDriverPort);
     public static final Controller Operator = new Controller(Constants.kOperatorPort);
 
+    private final int k10 = 3;
+
     public Controller(int port) {
         super(port);
     }
